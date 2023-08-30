@@ -20,7 +20,7 @@ on:
 
 jobs:
   setup-gcp-project:
-    runs-on: ubuntu-22.04
+    runs-on: ["self-hosted", "linux", "x64"]
 
     # Add "id-token" with the intended permissions.
     permissions:
